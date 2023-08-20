@@ -2,14 +2,11 @@
 
 int main(int argc , char **argv)
 {
-
-
     if(argc == 2)
     {
         int i = 0;
         while(argv[1][i])
         {
-
         if(argv[1][i]>= 'a' && argv[1][i] <= 'z' )
         {
             int rep = argv[1][i] - 96;
@@ -34,7 +31,6 @@ int main(int argc , char **argv)
         }
           i++;
         }
-      
     }
     write(1,"\n",1);
 }
